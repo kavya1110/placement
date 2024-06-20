@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int a;
+    scanf("%d",&a);
+    int p=1;
+    while(a!=0){
+        int r=a%10;
+        if(r==0){
+            p=p+r;
+            a=a/10;
+        }
+        else{
+            p=p*r;
+            a=a/10;
+        }
+        }
+printf("%d",p);
+    return 0;
+}
