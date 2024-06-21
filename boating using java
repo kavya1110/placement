@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) {
+ int w,a,c;
+Scanner k=new Scanner(System.in);
+        w=k.nextInt();
+         a=k.nextInt();
+         c=k.nextInt();
+    int t=a*75+c*30;
+    if(t<=w)
+        System.out.printf("Boat is stable");
+    else
+       System.out.printf("Boat will drown");
+    }
+}
