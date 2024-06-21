@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner k=new Scanner (System.in);
+        int s,l,b;
+    float r;
+    s=k.nextInt();
+    l=k.nextInt();
+    b=k.nextInt();
+    r=k.nextFloat();
+        System.out.println(s*s);
+        System.out.println(l*b);
+        double g=(float)3.14*r*r;
+        System.out.printf("%.2f",g);
+    }
+}
