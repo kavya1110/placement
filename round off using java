@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+import java.math.*;
+public class Solution {
+    public static void main(String[] args) {
+        float a;
+    Scanner k=new Scanner(System.in);
+        a=k.nextFloat();
+        int r=(int)Math.ceil((int)a);
+    System.out.printf("%d\n",r);
+  
+    float b=(float)Math.ceil(a);
+        float c=(float)Math.floor(a);
+    System.out.printf("%.1f\n%.1f\n",b,c);
+    }
+}
