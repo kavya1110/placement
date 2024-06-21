@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) {
+int x,a,b;
+    Scanner k=new Scanner(System.in);
+        x=k.nextInt();
+        a=k.nextInt();
+        b=k.nextInt();
+    int profit=((x*a)-(x*b)-100);
+    System.out.printf("%d",profit);
+
+    }
+}
